@@ -1,8 +1,9 @@
 'use strict';
 
-function double_to_one(collection) {
+var double_to_one=(collection)=> 
+ { let flattened = [];
+  collection.forEach(elem => flattened.push(...elem));
+  return [...new Set(flattened)];}
 
-  //在这里写入代码
-}
 
 module.exports = double_to_one;

@@ -1,8 +1,6 @@
 'use strict';
 
-function collect_min_number(collection) {
-  //在这里写入代码
-}
+var collect_min_number=(collection)=>Math.min(...collection);
+
 
 module.exports = collect_min_number;
-

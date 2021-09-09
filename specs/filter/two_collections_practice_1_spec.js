@@ -13,3 +13,4 @@ describe('choose_common_elements', function() {
     expect(result).toEqual(["a", "e", "f", "d"]);
   })
 });
+module.exports=choose_common_elements;
